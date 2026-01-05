@@ -1,10 +1,10 @@
-
+import chanelperfume from '../assets/images/chanelperfume/jpg'
 export default function PerfumeCard() {
     return(
         <div className="bg-white w-max mx-auto rounded-xl">
             <div className="grid md:grid-flow-col  gap-5 items-center justify-center">
                 <div className="flex items-center justify-center">
-                    <img src="/images/chanelperfume.jpg" alt="" className="w-[268px] rounded-bl-xl rounded-tl-xl" />
+                    <img src={chanelperfume} alt="" className="w-[268px] rounded-bl-xl rounded-tl-xl" />
                 </div>
 
                 <div className="flex flex-col p-6 w-[301px]">
